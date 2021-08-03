@@ -1,0 +1,40 @@
+/**********************TAG SELECTOR*******************************/
+
+body{
+  background-color:#EAF6F6 ;
+}
+hr {
+  background-color: #EAF6F6 ;
+  border-style: dotted none none;
+  border-color: lightgrey;
+  border-width: 6px;
+  width: 5%;
+}
+h3 {
+  color: #66BFCF;
+}
+h1 {
+  color: #66BFBF;
+}
+
+img:hover {                            /*pseudo class*/
+  background-color: navy;
+
+}
+
+
+/************************************CLASS SELECTOR**************************/
+
+.basketball {                  /*more specific*/
+  background-color: white;
+  height: 20px;
+}
+.profile {
+  border-radius: 100%;
+}
+
+/***********************************ID SELECTOR*****************************/
+
+#heading{              /*more specific*/ /*to identify the emelent only once */
+  color: #053788;
+}
